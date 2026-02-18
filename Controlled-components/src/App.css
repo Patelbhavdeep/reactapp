@@ -1,0 +1,142 @@
+/* General body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eef2f7;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Main container with two columns */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Left and right sections */
+.main-left,
+.main-right {
+  background: linear-gradient(135deg, #ffffff, #f0f8ff);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ddd;
+  max-width: 500px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-left:hover,
+.main-right:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Divider line */
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="datetime-local"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  box-sizing: border-box;
+  font-size: 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus effect for all inputs including password */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="datetime-local"]:focus,
+input[type="password"]:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.3);
+  outline: none;
+}
+
+/* Gender group styling */
+.gender-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.gender-group label {
+  margin: 0;
+}
+
+/* Radio button styling */
+input[type="radio"] {
+  transform: scale(1.3);
+  margin-left: 5px;
+  accent-color: #4a90e2;
+}
+
+/* Output display styling */
+h1.output {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Submit button styling */
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #357abd;
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1000px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-left,
+  .main-right {
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,37 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  height: 100vh; /* full screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* spacing between items */
+  background: #f5f5f5; /* light background */
+  flex-direction: row;
+}
+
+.main button {
+  padding: 12px 24px;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.main button:hover {
+  background-color: #45a049;
+}
+
+.main h1 {
+  font-size: 28px;
+  color: #333;
+  margin: 0;
+}

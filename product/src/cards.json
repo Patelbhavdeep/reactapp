@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Card 1",
+    "description": "Sample description for card 1.",
+    "image": "https://picsum.photos/seed/card1/600/400"
+  },
+  {
+    "id": 2,
+    "title": "Card 2",
+    "description": "Sample description for card 2.",
+    "image": "https://picsum.photos/seed/card2/600/400"
+  },
+  {
+    "id": 3,
+    "title": "Card 3",
+    "description": "Sample description for card 3.",
+    "image": "https://picsum.photos/seed/card3/600/400"
+  },
+  {
+    "id": 4,
+    "title": "Card 4",
+    "description": "Sample description for card 4.",
+    "image": "https://picsum.photos/seed/card4/600/400"
+  },
+  {
+    "id": 5,
+    "title": "Card 5",
+    "description": "Sample description for card 5.",
+    "image": "https://picsum.photos/seed/card5/600/400"
+  },
+  {
+    "id": 6,
+    "title": "Card 6",
+    "description": "Sample description for card 6.",
+    "image": "https://picsum.photos/seed/card6/600/400"
+  },
+  {
+    "id": 7,
+    "title": "Card 7",
+    "description": "Sample description for card 7.",
+    "image": "https://picsum.photos/seed/card7/600/400"
+  },
+  {
+    "id": 8,
+    "title": "Card 8",
+    "description": "Sample description for card 8.",
+    "image": "https://picsum.photos/seed/card8/600/400"
+  },
+  {
+    "id": 9,
+    "title": "Card 9",
+    "description": "Sample description for card 9.",
+    "image": "https://picsum.photos/seed/card9/600/400"
+  },
+  {
+    "id": 10,
+    "title": "Card 10",
+    "description": "Sample description for card 10.",
+    "image": "https://picsum.photos/seed/card10/600/400"
+  }
+]
